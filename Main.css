@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    overflow: hidden;
+}
+#box{
+    height: 100vh;
+    width: 100%;
+}
+#box img{
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+#cars{
+    position: absolute;
+    top:-50px;
+}
+#cars img{
+    height: 800px;
+    width: 1300px;
+    position: absolute;
+    left:50px;
+}
+#menu{
+    height: 100vh;
+    width: 80px;
+    background-color:#222;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 9999;
+}
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#menu ul li{
+    height: 10px;
+    width: 10px;
+    background-color:white;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#menu ul li:first-child{
+    box-shadow: 0 0 0 3px rgba(0,0,0,1), 0 0 0 5px rgba(255,45,94,1);
+}
+#blackLayer{
+    height: 100vh;
+    width: 150%;
+    background-color: black;
+    position: absolute;
+    top:0;
+    left: 100%;
+    z-index: 99;
+}
+#redLayer{
+    height: 100vh;
+    width: 170%;
+    background-color: #FF2D5E;
+    position: absolute;
+    top:0;
+    left: 100%;
+    z-index: 9;
+}
+
+
+
+
+
+
